@@ -135,3 +135,12 @@ hr {
     color: #ddd;
     font-size: 16px;
 }
+
+.course-duration {
+    background: #FEE5DF;
+    width: 94px;
+    height: 29px;
+    border-radius: 14px;
+
+
+}
