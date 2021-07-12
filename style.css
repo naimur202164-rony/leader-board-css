@@ -17,6 +17,7 @@ body {
     margin-top: 21px;
     border-radius: 5px;
 
+
 }
 
 main {
@@ -106,24 +107,31 @@ hr {
 }
 
 /* courrces Style */
-.cource-info {
-    display: flex;
+.cources {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
 }
 
-.cources .cource-banner img {
-    height: 104px;
-    width: 224px;
+
+.cource-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cource .cource-banner img {
+    width: 266px;
+    height: 141px;
 }
 
 .fa-star.filld {
-    color: #FFC014;
-
-}
-
-.fa-start {
-    font-size: 12px;
+    color: goldenrod;
+    font-size: 16px;
 }
 
 .fa-star.empty {
     color: #ddd;
+    font-size: 16px;
 }
