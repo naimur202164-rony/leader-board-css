@@ -14,13 +14,18 @@ body {
     background-color: #fff;
     width: 870px;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 
 }
 
 main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     ;
+
 }
 
 .section-title {
@@ -52,9 +57,73 @@ main {
 }
 
 hr {
-    border: 1px solid #D1D1D1
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
 }
 
 .top-players {
     margin-bottom: 30px;
+}
+
+
+
+/* ---------top-blogs-style
+------------------------- */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+.blog .thumbnail img {
+    height: 140px;
+    width: 177px;
+    ;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-author {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.blog-author a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+
+}
+
+/* courrces Style */
+.cource-info {
+    display: flex;
+}
+
+.cources .cource-banner img {
+    height: 104px;
+    width: 224px;
+}
+
+.fa-star.filld {
+    color: #FFC014;
+
+}
+
+.fa-start {
+    font-size: 12px;
+}
+
+.fa-star.empty {
+    color: #ddd;
 }
